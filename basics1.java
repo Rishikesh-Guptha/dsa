@@ -29,5 +29,21 @@ public class basics1 {
 
         // use sout shortcut to print in the console
         System.out.println("hello world" + b);
+
+        // Type Casting
+
+        //widening casting : byte -> short -> char -> int -> long -> float -> double : smaller to larger (Automatically)
+
+        int small = 10;
+        float bigger =small;
+        System.out.println(bigger);
+
+        //Narrowing casting : double -> float -> long -> int -> char -> short -> byte : larger to smaller (manually)
+
+        float big = 11.993f;
+        int smal = (int)big;
+        System.out.println(smal);
+
+
     }
 }
