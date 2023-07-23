@@ -60,6 +60,12 @@ public class basics1 {
             System.out.println(x+ "is greater than"+z);
         };
 
+        //short hand for loop
+
+        String answer = (x>y)? "x is greater":"y is greater";
+        System.out.println(answer);
+
+        //for loop
 
 
     }
