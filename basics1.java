@@ -65,7 +65,36 @@ public class basics1 {
         String answer = (x>y)? "x is greater":"y is greater";
         System.out.println(answer);
 
-        //for loop
+        //switch
+         int day =8;
+         switch (day) {
+             case 1:
+                 System.out.println("its 1");
+                 break;
+             case 2:
+                 System.out.println("its 2");
+                 break;
+             case 3:
+                 System.out.println("its 3");
+                 break;
+             case 4:
+                 System.out.println("its 4");
+                 break;
+             case 5:
+                 System.out.println("its 5");
+                 break;
+             case 6:
+                 System.out.println("its 6");
+                 break;
+             case 7:
+                 System.out.println("its 7");
+                 break;
+             default:
+                 System.out.println("its none");
+
+         };
+
+
 
 
     }
