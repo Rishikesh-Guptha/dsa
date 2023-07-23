@@ -53,10 +53,14 @@ public class basics1 {
 
         if (z>x){
             System.out.println(z+ "is greater than"+x);
-        }
-        else{
+        } else if (y>x) {
+            System.out.println(y+ "is greater than"+x);
+
+        } else{
             System.out.println(x+ "is greater than"+z);
-        }
+        };
+
+
 
     }
 }
