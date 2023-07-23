@@ -102,6 +102,11 @@ public class basics1 {
             num++;
         }
 
+        //do while loop
+
+        do {
+            System.out.println("executed once irrespective of the result");
+        }while(num>10);
 
 
     }
