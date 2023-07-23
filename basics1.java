@@ -108,6 +108,11 @@ public class basics1 {
             System.out.println("executed once irrespective of the result");
         }while(num>10);
 
+        //for loop
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println("for loop is running");
+        }
 
     }
 }
