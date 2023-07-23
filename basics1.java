@@ -44,6 +44,19 @@ public class basics1 {
         int smal = (int)big;
         System.out.println(smal);
 
+        //Conditions
+        //if-else
+
+        int z=10;
+        int x=20;
+        int y=30;
+
+        if (z>x){
+            System.out.println(z+ "is greater than"+x);
+        }
+        else{
+            System.out.println(x+ "is greater than"+z);
+        }
 
     }
 }
