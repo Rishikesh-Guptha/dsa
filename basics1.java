@@ -94,6 +94,13 @@ public class basics1 {
 
          };
 
+         //while loop
+
+        int num =5;
+        while(num<10){
+            System.out.println("it is less than 10");
+            num++;
+        }
 
 
 
