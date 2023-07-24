@@ -3,11 +3,14 @@ package dsa.arrays;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class Array {
     public static void  main(String[] args){
+        Scanner in = new Scanner(System.in);
 
         //Arrays are Linear static ds where datas are stored in continous memory locations
+        //The object is actually created in HEAP memory.
 
         //Initialization or Creation
 
@@ -35,6 +38,20 @@ public class Array {
         dynamic_array.add(1);
         dynamic_array.add(2);
         System.out.println(dynamic_array); //This prints the values of the dynamic array
+
+        ArrayList<Integer> list = new ArrayList<>(5);
+
+        // input
+        for (int i = 0; i < 5; i++) {
+            list.add(in.nextInt());
+        }
+
+        // get item at any index
+        for (int i = 0; i < 5; i++) {
+            System.out.println(list.get(i)); // pass index here, list[index] syntax will not work here
+        }
+
+        System.out.println(list);
 
 
 
