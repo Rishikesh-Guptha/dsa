@@ -112,6 +112,11 @@ public class basics1 {
 
         for (int i = 0; i < 5; i++) {
             System.out.println("for loop is running");
+        };
+
+        String[] cars= {"audi","benz","ferrari","rolls royce"};
+        for(String i:cars){
+            System.out.println(i);
         }
 
     }

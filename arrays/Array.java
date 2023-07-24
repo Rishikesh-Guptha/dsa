@@ -20,6 +20,11 @@ public class Array {
         System.out.println(array1[0]);
         System.out.println(Arrays.toString(array1)); //This prints the array as a string
 
+        //Multi dimensional array
+
+        int[][] multi_array={{1,2,3},{4,5,6}};
+        System.out.println(multi_array); //address of the multi dimensional array
+
         //Dynamic array or Lists
         //These are basicaly non static arrays where we can add or delete elements as we wish
 
