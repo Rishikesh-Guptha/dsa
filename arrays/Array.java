@@ -53,7 +53,6 @@ public class Array {
 
         System.out.println(list);
 
-
-
     }
+
 }
