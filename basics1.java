@@ -120,10 +120,18 @@ public class basics1 {
         }
 
         //Functions
-        sum();
-        int sum2_total =sum2();
+        sum(); // With out return type
+        int sum2_total =sum2();// With int return type
         System.out.println("The sum of the 2nd sum function is"+sum2_total);
 
+        //With parameters
+        int sum3_total = sum3(20,30);
+        System.out.println("The sum of the 3rd function is:"+sum3_total);
+
+    }
+
+    static int sum3(int i, int i1) {
+        return (i+i1);
     }
 
     static void sum() {
