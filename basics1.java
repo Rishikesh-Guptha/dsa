@@ -121,6 +121,8 @@ public class basics1 {
 
         //Functions
         sum();
+        int sum2_total =sum2();
+        System.out.println("The sum of the 2nd sum function is"+sum2_total);
 
     }
 
@@ -133,4 +135,15 @@ public class basics1 {
         int sum = a + b;
         System.out.println("The Sum is:" + sum);
     }
+    static int sum2() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter no.1:");
+        int a = sc.nextInt();
+        System.out.println("Enter no.2:");
+        int b = sc.nextInt();
+        int sum = a + b;
+        return sum;
+    }
+
+
 }
