@@ -17,7 +17,9 @@ public class scopes {
         change_value(a);
         System.out.println("a is after function:"+a); // The value of a is not changing even after changed in the function
 
-
+        //Shadowing
+        //The shadowing_variable has a scope in the whole class , but if we initialize it inside a block again , then that new value is only taken
+        //This shadowing of the new or lower scope on the higher scope is called shadowing
         System.out.println("shadowing variable before initialization is: "+shadowing_variable);
         int shadowing_variable=100;
         System.out.println("shadowing variable after initialization is: "+shadowing_variable);
