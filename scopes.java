@@ -1,6 +1,7 @@
 package dsa;
 
 public class scopes {
+    static int shadowing_variable= 123;
     public static void main(String[] args) {
         int a=10;
         int b=20;
@@ -16,11 +17,16 @@ public class scopes {
         change_value(a);
         System.out.println("a is after function:"+a); // The value of a is not changing even after changed in the function
 
+
+        System.out.println("shadowing variable before initialization is: "+shadowing_variable);
+        int shadowing_variable=100;
+        System.out.println("shadowing variable after initialization is: "+shadowing_variable);
+
     }
-    static void change_value(int a){
-        a=100;
-        System.out.println("number:"+a);
-    };
+    static void change_value(int a) {
+        a = 100;
+        System.out.println("number:" + a);
+    }
 
 
 }
