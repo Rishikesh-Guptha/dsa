@@ -31,6 +31,8 @@ public class Array {
         String[] array4 =new String[5];
         char[] array5=new char[5];
 
+        //So what basically happens is , an array of reference variables are ccreated in the
+
         //Printing
 
         System.out.println(array1); //This prints the address of the array

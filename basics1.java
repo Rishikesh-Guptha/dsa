@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class basics1 {
     public static void main(String[] args){
         // Data type
+        //All the primitive datatypes are created in Stack memory
         byte this_is_byte= 126;
         short this_is_short= 32767;
         int this_is_int=2147483646;
@@ -20,6 +21,7 @@ public class basics1 {
         System.out.println(ascii_values);
 
         //Non primitive data types
+        //All the non-primitive or object datatypes are created in the Heap memory
 
         String this_is_string = "This is also called as a Special data type";
 

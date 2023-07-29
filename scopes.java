@@ -1,6 +1,7 @@
 package dsa;
 
 public class scopes {
+    //This variable has scope all over the class.
     static int shadowing_variable= 123;
     public static void main(String[] args) {
         int a=10;
@@ -20,6 +21,7 @@ public class scopes {
         //Shadowing
         //The shadowing_variable has a scope in the whole class , but if we initialize it inside a block again , then that new value is only taken
         //This shadowing of the new or lower scope on the higher scope is called shadowing
+
         System.out.println("shadowing variable before initialization is: "+shadowing_variable);
         int shadowing_variable=100;
         System.out.println("shadowing variable after initialization is: "+shadowing_variable);
