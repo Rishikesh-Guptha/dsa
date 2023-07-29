@@ -15,6 +15,7 @@ public class Array {
         //It is up to the JVM to decide ,whether to be continous or not.
         //When elements are created .i.e., Initialozed and declared etc.., they are created in the heap memory.
         //Heap is the runtime memory area, where the memory for all classes, objects etc.. are allocated.
+        //The memory for the array is created in runtime, i.e., when the program runs, so it is called Runtime Dynamic Memory Allocation.
 
 
 
@@ -26,12 +27,20 @@ public class Array {
 
         int[] array1 ={1,2,3,4,5};
         int[] array2= new int[5]; //Now the size of the array is 5 , so no more extra elements can be added
+        float[] array3=new float[5];
+        String[] array4 =new String[5];
+        char[] array5=new char[5];
 
         //Printing
 
         System.out.println(array1); //This prints the address of the array
         System.out.println(array1[0]);
         System.out.println(Arrays.toString(array1)); //This prints the array as a string
+        System.out.println(array2[3]); // This is gonna give 0 , as it is the default value
+        System.out.println(array3[2]);// 0.0
+        System.out.println(array4[3]);//null
+        System.out.println("char:"+array5[2]);//null
+
 
         //Multi dimensional array
 
@@ -53,6 +62,7 @@ public class Array {
 
         // input
         for (int i = 0; i < 5; i++) {
+            System.out.print("enter element"+i+": ");
             list.add(in.nextInt());
         }
 
