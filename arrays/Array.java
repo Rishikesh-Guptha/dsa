@@ -9,8 +9,18 @@ public class Array {
     public static void  main(String[] args){
         Scanner in = new Scanner(System.in);
 
-        //Arrays are Linear static ds where datas are stored in continous memory locations
+        //Arrays are Linear static data structures which contains or allows only data's of same data type
         //The object is actually created in HEAP memory.
+        //It is said to continous memory location, but in the java main docs there is noe proof that it is being allocated continously .
+        //It is up to the JVM to decide ,whether to be continous or not.
+        //When elements are created .i.e., Initialozed and declared etc.., they are created in the heap memory.
+        //Heap is the runtime memory area, where the memory for all classes, objects etc.. are allocated.
+
+
+
+        //So arrays are created in heap.
+        //Heap objects are not necessarly continous.
+
 
         //Initialization or Creation
 
