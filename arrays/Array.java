@@ -20,6 +20,7 @@ public class Array {
 
 
         //So arrays are created in heap.
+        //Each elements of an array is an object, the array is a collection of reference variables pointing to its value, and the default value is null or 0
         //Heap objects are not necessarly continous.
 
 
