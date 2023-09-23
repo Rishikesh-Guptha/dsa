@@ -6,6 +6,7 @@ import java.util.Arrays;
 public class basic2 {
     public static void main(String[] args) {
         String str[]={"ball","dog","cat","apple"};
+        int str1[]={3,0,1};
         String extra=null;
         for (int i = 0; i <str.length ; i++) {
             for (int j = 0; j < str.length; j++) {
@@ -22,6 +23,7 @@ public class basic2 {
         String a="hello";
         int z=10;
         System.out.println(a.indexOf('l',4));
+        System.out.println(Arrays.asList(str1).contains(3));
 
     }
 }
